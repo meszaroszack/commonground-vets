@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #fbf9f5;
+  color: #1c2826;
+}
+
+::selection {
+  background: #f3d2c4;
+  color: #1c2826;
+}
+
+:focus-visible {
+  outline: 2px solid #d96b43;
+  outline-offset: 2px;
+}
